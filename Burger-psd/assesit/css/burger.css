@@ -1,0 +1,429 @@
+         * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .bg-img {
+            background-image: url(../img/sec3_bg_img.png);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        
+        .nev_text {
+            color: white;
+            font-size: 25px;
+            list-style: none;
+            display: flex;
+        }
+        
+        .nev_text li {
+            margin-right: 30px;
+        }
+        
+        .logo {
+            margin-left: 30px;
+        }
+        .d-flex{
+            display: flex;
+        }
+        .aic{
+            align-items: center;
+            justify-content: space-between;
+
+        }
+        header{
+            background-image: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.9999999999999999) 85%, rgba(0,0,0,0.9999999999999999) 100%);
+        }
+        /* /..............................................................................sec-1....................................................../ */
+        .container {
+            width: 1400px;
+            margin: 0 auto;
+        }
+        
+        .sec-1-text {
+            color: white;
+        }
+        .sec-1-text h1 {
+            font-size: 100px;
+            width: 50%;
+            padding: 25px 0 0 0;
+        }
+        .sec-1-text p {
+            font-size: 25px;
+            width: 30%;
+            padding: 50px 0 0 0;
+        }
+        .sec-1-text button{
+            padding: 10px 40px;
+            color: white;
+            background-color: #f64b3c;
+            border-radius: 50px;
+            border: none;
+            margin: 50px 0 50px 0;
+        }
+        .sec-1{
+            padding: 60px 0 ;
+        }
+        /* /..............................................................................sec-2....................................................../ */
+        .sec-2{
+            background-color: #f6eedf;
+            color:  #f64b3c;
+            padding: 43px;
+            position: relative;
+        }
+        .sec-2-text{
+            text-align: center;
+            padding: 50px 0 20px 0;
+        }
+        .sec-2-text h2{
+            font-size: 70px;
+        }
+        .sec-2-text p{
+            font-size: 30px;
+            width: 50%;
+            margin: 0 auto;
+        }
+        .col-30{
+            width: 30%;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .col-30 h4{
+            font-size: 25px;
+        }
+        .pad{
+            padding: 80px 0;
+        }
+        .position-1{
+            position: absolute;
+            top: 100px;
+            right: 70px;
+        }
+        .position-2{
+            position: absolute;
+            top: 120px;
+            left: 170px;
+        }
+        .position-3{
+            position: absolute;
+            top: 270px;
+            left: -10px;
+        }
+        .position-4{
+            position: absolute;
+            left: 470px;
+            bottom: 30px;
+        }
+        .position-5{
+            position: absolute;
+            right: 470px;
+            bottom: 30px;
+        }
+        .position-6{
+            position: absolute;
+            right: 20px;
+            bottom: 150px;
+        }
+        /* /..............................................................................sec-3....................................................../ */
+        .col-50{
+            width: 50%;
+            margin: 0 auto;
+            padding: 27px 0 ;
+            
+        }
+        .sec-3{
+            background-color: #f64b3c;
+            color: white;
+            
+        }
+        .col-50 h2{
+            font-size: 80px;
+        }
+        .col-50 p{
+            font-size: 20px;
+            width: 50%;
+            padding: 20px 0 30px 0;
+        }
+        .col-50 button{
+            padding: 10px 50px;
+            border-radius: 50px;
+            border: none;
+            color:#f64b3c;
+            margin: 10px 0 10px;
+            font-size: larger;
+        }
+        .jsc{
+            justify-content: space-between;
+            align-items: center;
+            padding: 100px 0 100px 0;
+        }
+        /* /..............................................................................sec-4....................................................../ */
+        .sec-4{
+            background-color: #f6eedf;
+            color: #f64b3c;
+            padding: 80px 0;
+            position: relative;
+        }
+        .sec-4-col-50 button{
+            padding: 10px 50px;
+            border-radius: 50px;
+            border: none;
+            background-color:#f64b3c;
+            margin: 10px 0 10px;
+            font-size: larger;
+            color: white;
+        }
+        .sec-4-col-50 p{
+            font-size: 20px;
+            width: 50%;
+            padding: 20px 0 30px 0;
+        }
+        .sec-4-col-50 h2{
+            font-size: 80px;
+        }
+        .sec-4-col-50{
+            width: 50%;
+            margin: 0 auto;
+            padding: 46px 0;
+            
+        }
+        .sec-4-jsc{
+            justify-content: space-between;
+            align-items: center;
+        }
+        .sec-4-position-1{
+            position: absolute;
+            top: 10px;
+            right: 50%;
+        }
+        .sec-4-position-2{
+            position: absolute;
+            bottom: 10px;
+            left:590px;
+            
+        }
+        .sec-4-position-3{
+            position: absolute;
+            top: 100px;
+            right: 100px;
+        }
+        .sec-4-position-4{
+            position: absolute;
+            bottom: 30px;
+            right: 30px;
+        }
+        .sec-4-position-5{
+            position: absolute;
+            bottom: 50px;
+            left: 200px;
+        }
+        .sec-4-position-6{
+            position: absolute;
+            top: 150px;
+            left: -10px;
+        }
+        /* /..............................................................................sec-5....................................................../ */
+        .sec-5{
+            background-color: #f64b3c;
+            color: white;
+            padding-bottom: 100px;
+        }
+        .sec-5-text{
+            text-align: center;
+            align-items: center;
+            padding: 80px 0 80px 0;
+        }
+        .sec-5-text h2{
+            font-size: 80px;
+        }
+        .sec-5-text p{
+            font-size: 20px;
+            width: 40%;
+            margin: 0 auto;
+        }
+        .sec-5-col-30{
+            border: 4px solid white;
+            width: 30%;
+            margin: 0 auto;
+            border-radius: 155px;
+            text-align: center;
+            font-size: 40px;
+            height: 310px;
+            width: 310px;
+            margin-bottom: 25px;
+            align-items: center;
+            padding: 80px;
+        }
+        /* /..............................................................................sec-6....................................................../ */
+        .sec-6{
+            background-color: #f6eedf;
+            color: #f64b3c;
+            padding: 90px 0;
+            position: relative;
+            overflow: hidden;
+        }
+        .sec-6-text{
+            font-size: 60px;
+            text-align: center;
+            padding: 21px 0 80px;
+        }
+        .sec-6-col-30{
+            background-color: white;
+            width: 25%;
+            margin: 0 auto;
+            text-align: center;
+            border-radius: 10px;
+            position: relative;
+        }
+        .sec-6-col-30 h4{
+            font-size: 25px;
+            padding: 10px 0 20px 0;
+        }
+        .sec-6-col-30 p{
+            font-size: 20px;
+            width: 70%;
+            margin: 0 auto;
+        }
+        .sec-6-col-30 button{
+            padding: 10px 60px;
+            background-color: #f64b3c;
+            color: white;
+            border: none;
+            border-radius: 50px;
+            margin: 20px 0 20px 0;
+        }
+        .sec-6-position-1{
+            position: absolute;
+            top: 20px;
+            right: 150px;
+        }
+        .sec-6-position-2{
+            position: absolute;
+            top: 250px;
+            right: -5px;
+        }
+        .sec-6-position-3{
+            position: absolute;
+            bottom: 10px;
+            right: 40px;
+        }
+        .sec-6-position-4{
+            position: absolute;
+            top: 100px;
+            left: 250px;
+        }
+        .sec-6-position-5{
+            position: absolute;
+            bottom: 50px;
+        }
+        .sec-6-position-6{
+            position: absolute;
+            top: 200px;
+            left: 10px;
+        }
+        /* /..............................................................................sec-7....................................................../ */
+        .sec-7{
+            background-color: #f64c3cb4;
+            padding: 100px 0;
+        }
+        .sec-7-text{
+            color: white;
+            text-align: center;
+            padding: 100px 0;
+        }
+        .sec-7-text h2{
+            font-size: 40px;
+            padding: 50px 0 0 0 ;
+            
+        }
+        .sec-7-text p{
+            font-size: 30px;
+            width: 40%;
+            margin: 0 auto;
+            padding: 70px 0 45px 0;
+        }
+        .sec-7-bg-img{
+            background-image: url(../img/sec-7-bg-img.png);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            
+        }
+        /* /..............................................................................sec-8....................................................../ */
+        .sec-8{
+            background-color: #f6eedf;
+            color: #f64b3c;
+            padding: 100px 0;
+        }
+        .sec-8-text{
+            text-align: center;
+            padding: 100px 0 35px ;
+        }
+        .sec-8-text h2{
+            font-size: 70px;
+            padding:15px 0 20px 0;
+            
+        }
+        .sec-8-text p{
+            width: 50%;
+            margin: 0 auto;
+            font-size: 25px;
+            padding-bottom: 16px;
+        }
+        input{
+            color: black;
+            padding: 15px 100px;
+            border-radius: 30px 0 0 30px;
+            border: none;
+        }
+        .box{
+            margin: 0 auto;
+            justify-content: center;
+            padding: 60px 0 100px 0;
+        }
+        .box button{
+            border-bottom-right-radius: 30px;
+            border-top-right-radius: 30px;
+            margin-right: 50px;
+            padding: 15px 50px;
+            background-color: #f64b3c;
+            color: white;
+            border: none;
+        }
+        /* /..............................................................................footer....................................................../ */
+        .futer{
+            background-color: black;
+            color: white;
+            padding: 100px;
+        }
+        .col-60{
+            width: 60%;
+            margin: 0 auto;
+            padding: 100px 0 100px 80px;
+        }
+        .col-40{
+            width: 40%;
+            margin: 0 auto;
+        }
+        .fut-1 p{
+            width: 35%;
+            padding: 20px 0 ;
+        }
+        .fut-col-30{
+            width: 30%;
+            margin: 0 auto;
+        }
+        .fut-col-30 li{
+            list-style: none;
+            padding: 5px;
+        }
+        .col-40{
+            padding: 100px 80px 100px 0;
+        }
+        .col-40 h2{
+            padding-bottom: 20px;
+        }
+        
+    
