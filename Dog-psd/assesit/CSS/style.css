@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #daac00;
+    padding: 10px 50px;
+}
+
+.d_flex {
+    display: flex;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tac {
+    text-align: center;
+}
+
+.logo img {
+    width: 70%;
+}
+
+.nav_manu li {
+    list-style: none;
+    padding: 0 10px;
+    color: white;
+    font-size: 20px;
+}
+
+.Search_img {
+    height: 33px;
+    width: 33px;
+    background-color: #00bec9;
+}
+
+.Search input {
+    background-color: #fcc302;
+    border: none;
+    padding: 9px 30px;
+}
+
+.Search span {
+    color: white;
+    position: absolute;
+    left: 10px;
+}
+
+.po_rl {
+    position: relative;
+}
+
+.Search_img img {
+    height: 20px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+.col_50 {
+    width: 50%;
+}
+
+.contenar {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+/* /...........................................................sec-1:start Hear....................................................../ */
+.sec_1 {
+    background-color: #fcc302;
+    color: white;
+    padding: 35px 0;
+}
+
+.sec_1_div_1 h2 {
+    font-size: 67px;
+    padding: 50px 50px 20px;
+}
+
+.sec_1_div_1 p {
+    font-size: 20px;
+    padding: 10px 50px 20px;
+    width: 70%;
+}
+
+.sec_1_div_1 {
+    padding: 50px 0;
+}
+
+.sec_1_button_1 {
+    background-color: #00bec9;
+    color: white;
+    border-radius: 7px;
+    padding: 10px 15px;
+    border: none;
+    margin: 0px 20px 0 50px;
+}
+
+.sec_1_button_2 {
+    background-color: #fcc302;
+    color: white;
+    border-radius: 7px;
+    padding: 10px 15px;
+    border: 2px solid white;
+}
+
+
+/* /...........................................................sec-2:start Hear....................................................../ */
+.sec_2{
+    padding: 100px 0;
+}
+.sec_2_div_1{
+    padding: 50px 0;
+}
+.sec_2_div_1 h2 {
+    font-size: 67px;
+    padding: 50px 50px 20px;
+}
+
+.sec_2_div_1 p {
+    font-size: 20px;
+    padding: 10px 50px 20px;
+    width: 70%;
+}
+
+.sec_2_div_1 button {
+    background-color: #fcc302;
+    color: white;
+    border-radius: 7px;
+    padding: 10px 15px;
+    border: none;
+    margin: 0px 20px 0 50px;
+}
+.sec_2_div_2{
+    position: relative;
+    padding: 40px 0;
+}
+.sec_2_paly_button{
+    position: absolute;
+    top: 250px;
+    left: 320px;
+    z-index: 5;
+}
+.sec_2_sape{
+    position: absolute;
+    top: 40px;
+    left: 96px;
+}
+.sec_2_sape_2{
+    background-color: #fcc302;
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+    height: 150px;
+    width: 200px;
+    z-index: 0;
+}
+.sec_2_img{
+    position: relative;
+}
+/* /...........................................................sec-2:start Hear....................................................../ */
+.sec_3{
+    background-color: #fcc302;
+    color: white;
+    padding: 45px 0;
+}
+.sec_3_heading h2{
+    font-size: 67px;
+    padding: 10px 0;
+}
+.sec_3_heading{
+    padding: 0 0 50px;
+}
+.sec_3_heading p{
+    font-size: 20px;
+    width: 30%;
+    margin: 0 auto;
+}
+.sec_3_cart h4{
+    font-size: 20px;
+    padding: 10px 0;
+}
+.sec_3_cart p{
+    font-size: 15px;
+    width: 45%;
+    margin: 0 auto;
+}
