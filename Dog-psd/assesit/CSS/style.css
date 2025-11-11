@@ -13,6 +13,11 @@ header {
     display: flex;
 }
 
+.col_30 {
+    width: 30%;
+    margin: 0 auto;
+}
+
 .row {
     display: flex;
     align-items: center;
@@ -72,6 +77,20 @@ header {
     margin: 0 auto;
 }
 
+.aic {
+    align-items: center;
+}
+
+.jse {
+    justify-content: space-evenly;
+}
+.po_rl{
+    position: relative;
+}
+.po_ab{
+    position: absolute;
+}
+
 /* /...........................................................sec-1:start Hear....................................................../ */
 .sec_1 {
     background-color: #fcc302;
@@ -113,12 +132,14 @@ header {
 
 
 /* /...........................................................sec-2:start Hear....................................................../ */
-.sec_2{
+.sec_2 {
     padding: 100px 0;
 }
-.sec_2_div_1{
+
+.sec_2_div_1 {
     padding: 50px 0;
 }
+
 .sec_2_div_1 h2 {
     font-size: 67px;
     padding: 50px 50px 20px;
@@ -138,22 +159,26 @@ header {
     border: none;
     margin: 0px 20px 0 50px;
 }
-.sec_2_div_2{
+
+.sec_2_div_2 {
     position: relative;
     padding: 40px 0;
 }
-.sec_2_paly_button{
+
+.sec_2_paly_button {
     position: absolute;
     top: 250px;
     left: 320px;
     z-index: 5;
 }
-.sec_2_sape{
+
+.sec_2_sape {
     position: absolute;
     top: 40px;
     left: 96px;
 }
-.sec_2_sape_2{
+
+.sec_2_sape_2 {
     background-color: #fcc302;
     position: absolute;
     bottom: 10px;
@@ -162,33 +187,226 @@ header {
     width: 200px;
     z-index: 0;
 }
-.sec_2_img{
+
+.sec_2_img {
     position: relative;
 }
+
+
 /* /...........................................................sec-2:start Hear....................................................../ */
-.sec_3{
+
+
+.sec_3 {
     background-color: #fcc302;
     color: white;
     padding: 45px 0;
 }
-.sec_3_heading h2{
+
+.sec_3_heading h2 {
     font-size: 67px;
     padding: 10px 0;
 }
-.sec_3_heading{
+
+.sec_3_heading {
     padding: 0 0 50px;
 }
-.sec_3_heading p{
+
+.sec_3_heading p {
     font-size: 20px;
     width: 30%;
     margin: 0 auto;
 }
-.sec_3_cart h4{
+
+.sec_3_cart h4 {
     font-size: 20px;
     padding: 10px 0;
 }
-.sec_3_cart p{
+
+.sec_3_cart p {
     font-size: 15px;
     width: 45%;
     margin: 0 auto;
 }
+
+
+/* /...........................................................sec-5:start Hear....................................................../ */
+
+.sec_3_cart button {
+    padding: 8px 30px;
+    color: white;
+    border-radius: 30px;
+    background-color: #00bec9;
+    border: none;
+    margin: 10px 0;
+}
+
+/* /...........................................................sec-6:start Hear....................................................../ */
+
+.sec_6 {
+    background-color: white;
+    color: black;
+    padding: 45px 0;
+}
+
+.sec_6_heading h2 {
+    font-size: 67px;
+    padding: 10px 0;
+}
+
+.sec_6_heading p {
+    font-size: 20px;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.sec_6_heading {
+    padding: 0 0 50px;
+}
+
+.sec_6_cart h4 {
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+.sec_6_cart p {
+    font-size: 15px;
+    width: 45%;
+    margin: 0 auto;
+}
+
+.sec_6_social_img {
+    width: 30%;
+    padding: 10px 0;
+}
+
+
+/* /...........................................................sec-7:start Hear....................................................../ */
+
+.sec_7 {
+    background-color: #ffc400b7;
+    background-image: url(../IMG/sec_7_bg_img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+    padding: 100px 80px;
+}
+
+.sec_7 h4 {
+    color: white;
+    padding: 8px 0;
+    font-size: 20px;
+}
+
+.border {
+    /* border: 1px solid; */
+    /* border: 0px 1px 1px 1px; */
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+}
+
+.card img {
+    width: 100%;
+}
+
+
+/* /...........................................................sec-8:start Hear....................................................../ */
+
+.sec_8 {
+    background-color: white;
+    color: black;
+    padding: 45px 0;
+}
+
+.sec_8_heading h2 {
+    font-size: 67px;
+    padding: 10px 0;
+}
+
+.sec_8_heading p {
+    font-size: 20px;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.sec_8_heading {
+    padding: 0 0 50px;
+}
+.card h3{
+    font-size: 20px;
+    width: 65%;
+    padding: 10px 20px;
+}
+.card span{
+    font-size: 15px;
+    color: #00bec9;
+    padding: 0 20px;
+}
+.card p{
+    font-size: 15px;
+    width: 60%;
+    padding: 20px 20px;
+}
+.card button{
+    background-color: white;
+    color:  #00bec9;
+    border: none;
+    padding: 0 0 10px 20px;
+}
+
+/* /...........................................................footar:start Hear....................................................../ */
+
+.Footer{
+    padding: 100px 50px;
+    color: white;
+    background-color: #343434
+    
+}
+.footer_div_1{
+    padding: 0 50px;
+}
+.footer_div_1 li{
+    list-style: none;
+    font-size: 15px;
+    padding: 3px 0;
+}
+.footer_div_1 h4{
+    list-style: none;
+    font-size: 25px;
+    padding: 10px 0;
+}
+.footer_div_2 h3{
+    font-size: 40px;
+    padding: 10px 0 0;
+}
+.footer_div_2{
+    text-align: right;
+}
+.footer_div_2 p{
+    padding: 10px 0;
+    font-size: 20px;
+}
+.footer_div_2 input{
+    padding: 15px 50px;
+    background-color:  #ffc908;
+    border: none;
+}
+.telegram{
+    width: 80px;
+    height: 50px;
+    background-color: #00bec9;
+    
+}
+.telegram img{
+    top: 8px;
+    right: 25px;
+}
+.footer_input{
+    padding: 10px 0;
+    right: 00px;
+}
+.social img{
+    width: 20%;
+    padding: 10px 0;
+}
+
