@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #fbfbfb;
+}
+nav{
+    width: 100%;
+}
+
+.nav_menu li {
+    list-style: none;
+    padding:20px 10px;
+    font-size: 18px;
+    color: #000000;
+    font-weight: 500;
+    font-family: "Merriweather";
+}
+.nav_menu{
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+}
+
+.aic {
+    align-items: center;
+}
+
+.tac {
+    text-align: center;
+}
+
+.jsb {
+    justify-content: space-between;
+}
+.contenar{
+    width: 1300px;
+    margin: 0 auto;
+}
+.po_rl{
+    position: relative;
+}
+.po_ab{
+    position: absolute;
+}
+
+/* /..................................................section-1 Start hear.............................................../ */
+
+.sec_1_text{
+    width: 18%;
+    right: 100px;
+    top: 80px;
+}
+.sec_1_title{
+    background-color: #000000;
+    color: white;
+    width: 1312px;
+}
