@@ -464,19 +464,61 @@ nav {
 
 
 /* /..................................................section-8 Start hear.............................................../ */
+.sec_8_div_2 {
+    top: 200px;
+    right: 50px;
+    text-align: left;
+}
+
+.sec_8_div_1 {
+    bottom: 60px;
+    left: 100px;
+    text-align: left;
+}
+
 .sec_8 {
-    background-image: url(../Img/sec_8_bg_img.png);
+    padding: 50px 0;
+}
+
+.sec_8_div_2 h2 {
+    font-size: 28px;
+    letter-spacing: 3px;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Merriweather";
+    width: 63%;
 }
 
 .sec_8_div_1 h3 {
     font-size: 26px;
     letter-spacing: 3px;
-    line-height: 36px;
+    line-height: 30px;
+    padding: 0 0 15px 0;
     text-transform: uppercase;
     color: #000000;
     font-weight: 400;
     font-family: "Merriweather";
-    width: 43%;
+    width: 23%;
+}
+
+.sec_8_div_1 h4 {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 600;
+    font-family: "Merriweather";
+    padding: 15px 0 0;
+}
+
+.sec_8_div_1 p {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Merriweather";
+    width: 30%;
 }
 
 .sec_8_div_1 input {
@@ -484,9 +526,113 @@ nav {
     background-color: #fbfbfb;
     border: none;
 }
-.sec_8_div_1 button{
+
+.sec_8 img {
+    width: 95%;
+}
+
+.sec_8_div_1 button {
     background-color: #000000;
     color: white;
     padding: 8px 30px;
     border: none;
+}
+
+
+/* /..................................................Fotter Start hear.............................................../ */
+.fotter_top_title {
+    background-color: #000000;
+    color: white;
+    width: 100%;
+    height: 30px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    line-height: 18px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: "Merriweather";
+    justify-content: center;
+    padding: 5px 0 0;
+}
+.fotter{
+    padding: 100px 0 0 0;
+}
+.fotter_manu{
+    padding: 100px 0 0 50px;
+}
+.fotter_logo{
+    padding: 100px 0 0 0;
+    top: 80px;
+}
+.fotter_cart{
+    padding: 100px  0;
+}
+.members{
+    padding: 0 0 0 50px;
+}
+.fotter_manu li {
+    list-style: none;
+    font-size: 13px;
+    letter-spacing: 0px;
+    line-height: 35px;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Merriweather";
+}
+
+.members h3{
+    font-size: 13px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Merriweather";
+    padding: 50px 50px;
+}
+.members h4 {
+    padding:0 0 20px 50px;
+    font-size: 13px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Merriweather";
+}
+
+.members input {
+    margin:0 0 10px 50px;
+    background-color: #fbfbfb;
+    border: 1px solid #000000;
+    padding: 10px 40px;
+}
+
+.members button {
+    margin:0 0 10px 50px;
+    background-color: #000000;
+    color: white;
+    padding: 5px 68px;
+}
+
+.members h5 {
+    padding:0 0 0 50px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: 13px;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 600;
+    font-family: "Merriweather";
+}
+.members p {
+    padding:0 0 0 50px;
+    font-size: 10px;
+    letter-spacing: 0px;
+    line-height: 13px;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Merriweather";
 }
