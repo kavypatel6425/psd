@@ -1,0 +1,210 @@
+@media (min-width: 576px) {
+    .container {
+        max-width: 560px;
+        margin: auto;
+    }
+
+    nav a {
+        margin: 0 15px;
+    }
+
+    nav img {
+        width: 20px;
+    }
+
+    .logo img {
+        width: 70%;
+    }
+
+    .sec_1 {
+        padding: 100px 60px;
+    }
+
+    .sec_1_text h1 {
+        font-size: 70px;
+    }
+
+    .sec_1_text p {
+        font-size: 20px;
+        width: 40%;
+        margin: 20px 0;
+    }
+
+    .sec_1_text button {
+        margin: 20px 0 100px;
+        padding: 15px 100px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 750px;
+        margin: auto;
+    }
+
+    nav a {
+        margin: 0 15px;
+    }
+
+    nav img {
+        width: 20px;
+    }
+
+    .logo img {
+        width: 70%;
+    }
+
+    .sec_1 {
+        padding: 100px 60px;
+    }
+
+    .sec_1_text h1 {
+        font-size: 70px;
+    }
+
+    .sec_1_text p {
+        font-size: 20px;
+        width: 40%;
+        margin: 20px 0;
+    }
+
+    .sec_1_text button {
+        margin: 20px 0 100px;
+        padding: 15px 100px;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 750px;
+        margin: auto;
+    }
+
+    nav a {
+        margin: 0 15px;
+    }
+
+    nav img {
+        width: 20px;
+    }
+
+    .logo img {
+        width: 70%;
+    }
+
+    .sec_1 {
+        padding: 100px 60px;
+    }
+
+    .sec_1_text h1 {
+        font-size: 70px;
+    }
+
+    .sec_1_text p {
+        font-size: 20px;
+        width: 40%;
+        margin: 20px 0;
+    }
+
+    .sec_1_text button {
+        margin: 20px 0 100px;
+        padding: 15px 100px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 750px;
+        margin: auto;
+    }
+
+    nav a {
+        margin: 0 15px;
+    }
+
+    nav img {
+        width: 20px;
+    }
+
+    .logo img {
+        width: 70%;
+    }
+
+    .sec_1 {
+        padding: 100px 60px;
+    }
+
+    .sec_1_text h1 {
+        font-size: 70px;
+    }
+
+    .sec_1_text p {
+        font-size: 20px;
+        width: 40%;
+        margin: 20px 0;
+    }
+
+    .sec_1_text button {
+        margin: 20px 0 100px;
+        padding: 15px 100px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .container {
+        max-width: 750px;
+        margin: auto;
+    }
+
+    nav a {
+        margin: 0 15px;
+    }
+
+    nav img {
+        width: 20px;
+    }
+
+    .logo img {
+        width: 70%;
+    }
+
+    .sec_1 {
+        padding: 100px 60px;
+    }
+
+    .sec_1_text h1 {
+        font-size: 70px;
+    }
+
+    .sec_1_text p {
+        font-size: 20px;
+        width: 40%;
+        margin: 20px 0;
+    }
+
+    .sec_1_text button {
+        margin: 20px 0 100px;
+        padding: 15px 100px;
+    }
+
+    .sec_2 h2 {
+        font-size: 70px;
+        margin-bottom: 10px;
+    }
+
+    .sec_2 p {
+        font-size: 20px;
+        margin: 0 auto;
+    }
+
+    .sec_2_card h3 {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+
+    .sec_2_card span {
+        margin-top: 15px;
+        font-size: 14px;
+    }
+}
