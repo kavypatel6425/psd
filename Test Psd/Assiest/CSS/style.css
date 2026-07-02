@@ -1,0 +1,526 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+}
+
+
+.jsb {
+    justify-content: space-between;
+
+}
+
+
+.tac {
+    text-align: center;
+}
+
+.logo img {
+    width: 100%;
+
+}
+
+.nav_manu li {
+    list-style: none;
+    padding: 0 10px;
+    font-size: 22px;
+    line-height: 59px;
+    color: #4a7163;
+    font-weight: 400;
+    font-family: "Tenor Sans";
+}
+
+.nev_icon img {
+    padding: 0 5px;
+}
+
+.header {
+    padding: 20px 40px;
+    border-bottom: 3px solid #4a7163;
+}
+
+.sec {
+    background-color: #ebd0cf;
+}
+
+.jsc {
+    justify-content: center;
+
+}
+
+.aic {
+    align-items: center;
+}
+
+.contenar {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.col_30 {
+    width: 30%;
+}
+
+.col_70 {
+    width: 70%;
+}
+
+.col_60 {
+    width: 60%;
+}
+
+.col_40 {
+    width: 40%;
+}
+
+.col_50 {
+    width: 50%;
+}
+
+
+
+.po_rl {
+    position: relative;
+}
+
+.po_ab {
+    position: absolute;
+}
+
+.jse {
+    justify-content: space-evenly;
+}
+
+/* //...........................sec_1................// */
+.sec_1 {
+    background-color: #ebd0cf;
+    padding: 100px 0;
+}
+
+.sec_1_img img {
+    top: 80px;
+    width: 20%;
+    transform: scale(1.1);
+    transition: transform 0.4s ease;
+}
+
+.sec_1_img img:hover {
+    transform: scale(1);
+}
+
+.sec_1_img_text {
+    padding: 50px 0 20px 50px;
+}
+
+
+.sec_1_img_text span {
+    font-size: 28px;
+    color: #4a7163;
+    font-weight: 400;
+    font-family: "Tenor Sans";
+}
+
+.sec_1_img_text h1 {
+    font-size: 90px;
+    line-height: 93px;
+    color: #4a7163;
+    font-weight: 400;
+    font-family: "Tenor Sans";
+}
+
+.green_div {
+    width: 1520px;
+    height: 300px;
+    background-color: #4a7163;
+}
+
+.green_div button {
+    width: 241px;
+    height: 49px;
+    background-color: #ebcfcf;
+    border: none;
+    left: 510px;
+    bottom: 250px;
+    font-size: 28px;
+    color: #4a7163;
+    font-weight: 400;
+    font-family: "Tenor Sans";
+}
+
+.green_div button:hover {
+    background-color: #4a7163;
+    border: 2px solid #ebcfcf;
+    color: #ebcfcf;
+    transition-duration: 0.5s;
+}
+
+.green_div p {
+    font-size: 17px;
+    color: #ebd0cf;
+    font-weight: 400;
+    font-family: "Tenor Sans";
+    text-align: left;
+    width: 40%;
+    right: 400px;
+    bottom: 310px;
+}
+
+
+/* //.....................sec_2.............// */
+.sec_2 {
+    background-color: #ebcfcf;
+}
+
+.sec_2_text p {
+    font-size: 28px;
+    color: #4a7163;
+    font-weight: 400;
+    font-family: "Tenor Sans";
+    /* margin: 0 auto; */
+    justify-content: center;
+}
+
+.sec_2_text h2 {
+    font-size: 57px;
+    color: #4a7163;
+    font-weight: 400;
+    font-family: "Tenor Sans";
+}
+
+.sec_2_cart_text {
+    font-size: 17px;
+    color: #4a7163;
+    font-weight: 400;
+    font-family: "Tenor Sans";
+}
+
+.sec_2_cart {
+    padding: 50px 0;
+}
+
+.sec_2_dot img {
+    padding-right: 20px;
+    justify-content: center;
+    transform: scale(1.1);
+    transition: transform 0.4s ease;
+}
+
+
+.sec_2_dot img:hover {
+    transform: scale(1);
+}
+
+.sec_2_dot {
+    justify-content: center;
+}
+
+
+/* //.....sec-3......// */
+.sec_3 {
+    padding: 100px 0 0;
+    background-color: #ebd0cf;
+    height: 1000px;
+}
+
+.sec_3_img img {
+    right: 100px;
+    top: 250px;
+}
+
+.sec_3_text {
+    top: 300px;
+}
+
+.sec_3_bg_color {
+    width: 1150px;
+    height: 900px;
+    background-color: #4a7163;
+}
+
+.sec_3_text span {
+    font-size: 28px;
+    color: #ebd0cf;
+    font-weight: 400;
+    font-family: "Tenor Sans";
+    padding: 0 0 80px;
+
+}
+
+.sec_3_text h3 {
+    font-size: 90px;
+    line-height: 93px;
+    color: #ebd0cf;
+    font-weight: 400;
+    font-family: "Tenor Sans";
+    width: 50%;
+    padding: 0 0 50px;
+}
+
+.sec_3_text p {
+    width: 1341px;
+    /* height: 100px; */
+    font-size: 17px;
+    color: #ebd0cf;
+    font-weight: 400;
+    font-family: "Tenor Sans";
+    text-align: left;
+    width: 86%;
+    padding: 0 0 50px;
+}
+
+.sec_3_text button {
+    width: 267px;
+    height: 49px;
+    font-size: 28px;
+    color: #4a7163;
+    font-family: "Tenor Sans";
+    background-color: #ebd0cf;
+    border: none;
+}
+
+/* .....sec_4.....// */
+
+.sec_4 {
+    /* padding: 100px 0; */
+    background-color: #ebcfcf;
+}
+
+.sec_4_text {
+    padding: 0 0 0 100px;
+}
+
+
+.sec_4_img img {
+    width: 100%;
+}
+
+.sec_4_text h3 {
+    font-size: 90px;
+    width: 50%;
+    line-height: 93px;
+    color: #4a7163;
+    font-weight: 400;
+    font-family: "Tenor Sans";
+    padding: 0 0 50px;
+}
+
+.sec_4_text p {
+    width: 55%;
+    font-size: 17px;
+    color: #4a7163;
+    font-weight: 400;
+    font-family: "Tenor Sans";
+    text-align: left;
+    padding: 0 0 50px;
+}
+
+.sec_4_text button {
+    width: 287px;
+    height: 49px;
+    background-color: #ebcfcf;
+    border: 5px solid #4a7163;
+    font-size: 28px;
+    color: #4a7163;
+    font-weight: 400;
+    font-family: "Tenor Sans";
+}
+
+
+
+/* ...sec_5.../ */
+
+.sec_5 {
+    background-color: #ebcfcf;
+}
+
+.sec_5_text {
+    padding: 0 0 0 100px;
+}
+
+.sec_5_img img {
+    width: 100%;
+}
+
+.sec_5_text h3 {
+    font-size: 90px;
+    width: 70%;
+    line-height: 93px;
+    color: #4a7163;
+    font-weight: 400;
+    font-family: "Tenor Sans";
+    padding: 0 0 50px;
+}
+
+.sec_5_text p {
+    width: 55%;
+    font-size: 17px;
+    color: #4a7163;
+    font-weight: 400;
+    font-family: "Tenor Sans";
+    text-align: left;
+    padding: 0 0 50px;
+}
+
+.sec_5_text button {
+    width: 287px;
+    height: 49px;
+    background-color: #ebcfcf;
+    border: 5px solid #4a7163;
+    font-size: 28px;
+    color: #4a7163;
+    font-weight: 400;
+    font-family: "Tenor Sans";
+}
+
+
+
+/* /................sec_6............./ */
+.sec_6 {
+    background-color: #4a7163;
+    padding: 0 0 50px;
+}
+
+.sec_6_text {
+    padding: 50px 0 20px;
+}
+
+.sec_6_text h3 {
+    font-size: 90px;
+    line-height: 93px;
+    color: #ebd0cf;
+    font-weight: 400;
+    font-family: "Tenor Sans";
+}
+
+.sec_6_text span {
+    font-size: 28px;
+    color: #ebd0cf;
+    font-weight: 400;
+    font-family: "Tenor Sans";
+}
+
+.sec_6_cart h4 {
+    font-size: 17px;
+    color: #ebd0cf;
+    font-weight: 400;
+    font-family: "Tenor Sans";
+}
+
+.sec_6_cart {
+    padding: 20px 0;
+}
+
+.sec_6_cart p {
+    padding: 10px 0 0;
+    margin: 0 auto;
+    width: 60%;
+    font-size: 15px;
+    color: #ebd0cf;
+    font-weight: 400;
+    font-family: "Tenor Sans";
+}
+
+.sec_6_cart img {
+    padding: 0 0 20px;
+}
+
+/* //....................sec-7....................// */
+.sec_7 {
+    background-color: #ebd0cf;
+}
+
+.sec_7_heading h3 {
+    font-size: 90px;
+    line-height: 93px;
+    color: #4a7163;
+    font-weight: 400;
+    font-family: "Tenor Sans";
+    padding: 50px 0;
+}
+
+.sec_7_cart h4 {
+    padding: 10px 0 10px;
+    font-size: 28px;
+    color: #4a7163;
+    font-weight: 400;
+    font-family: "Tenor Sans";
+
+}
+
+.sec_7_cart p {
+    margin: 10px auto 30px;
+    width: 565px;
+    height: 59px;
+    font-size: 17px;
+    color: #4a7163;
+    font-weight: 400;
+    font-family: "Tenor Sans";
+}
+
+.sec_7_btn button {
+    width: 267px;
+    height: 49px;
+    background-color: #4a7163;
+    font-size: 28px;
+    color: #ebd0cf;
+    font-weight: 400;
+    font-family: "Tenor Sans";
+    border: none;
+    margin: 50px 0;
+}
+
+
+
+/* //..........footer..............// */
+
+.footer_heading h3 {
+    width: 50%;
+    font-size: 75px;
+    line-height: 81px;
+    color: #ebd0cf;
+    font-weight: 400;
+    font-family: "Tenor Sans";
+    padding: 10px 0 20px;
+}
+
+.footer_list h5 {
+    font-size: 25px;
+    line-height: 66px;
+    color: #ebd0cf;
+    font-weight: 400;
+    font-family: "Tenor Sans";
+}
+
+.footer_list li {
+    width: 195px;
+    font-size: 21px;
+    line-height: 35px;
+    color: #ebd0cf;
+    font-weight: 400;
+    font-family: "Tenor Sans";
+    list-style: none;
+}
+
+.footer {
+    padding: 100px 80px;
+    background-color: #4a7163;
+}
+
+.copyright {
+    padding: 100px 0;
+    width: 673px;
+    height: 35px;
+    font-size: 21px;
+    line-height: 35px;
+    color: #ebd0cf;
+    font-weight: 400;
+    font-family: "Tenor Sans";
+}
+
+.footer_icon img {
+    padding: 0 5px;
+}

@@ -38,12 +38,12 @@ header {
     list-style: none;
     padding: 0 10px;
     color: white;
-    font-size: 20px;
+    font-size: 10px;
 }
 
 .Search_img {
-    height: 33px;
-    width: 33px;
+    height: 45px;
+    width: 35px;
     background-color: #00bec9;
 }
 
@@ -57,6 +57,7 @@ header {
     color: white;
     position: absolute;
     left: 10px;
+    top: 15px;
 }
 
 .po_rl {
@@ -67,7 +68,7 @@ header {
     height: 20px;
     position: absolute;
     right: 5px;
-    top: 5px;
+    top: 14px;
 }
 
 .col_50 {
@@ -340,6 +341,7 @@ header {
     border-left: 1px solid;
     border-right: 1px solid;
     border-bottom: 1px solid;
+
 }
 
 .card img {
@@ -447,8 +449,6 @@ header {
 }
 
 .telegram img {
-    /* top: 8px;
-    right: 25px; */
     padding: 10px 25px;
 }
 
@@ -467,87 +467,3 @@ header {
 
 /* /...........................................................meadia:start Hear....................................................../ */
 
-/* `sm` applies to x-small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {
-    .contenar {
-        width: 570px;
-        margin: 0 auto;
-    }
-
-    .col_30 {
-        width: 100%;
-        margin: 0 auto;
-    }
-
-    .row {
-        flex-wrap: wrap;
-    }
-}
-
-/* `md` applies to small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) {
-    .contenar {
-        width: 760px;
-        margin: 0 auto;
-    }
-
-    .col_30 {
-        width: 100%;
-        margin: 0 auto;
-    }
-
-    .row {
-        flex-wrap: wrap;
-    }
-}
-
-/* `lg` applies to medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) {
-    .contenar {
-        width: 980px;
-        margin: 0 auto;
-    }
-
-    .col_30 {
-        width: 50%;
-        margin: 0 auto;
-    }
-
-    .row {
-        flex-wrap: wrap;
-    }
-}
-
-/* `xl` applies to large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) {
-    .contenar {
-        width: 1189;
-        margin: 0 auto;
-    }
-
-    .col_30 {
-        width: 30%;
-        margin: 0 auto;
-    }
-
-    .row {
-        flex-wrap: wrap;
-    }
-}
-
-/* `xxl` applies to x-large devices (large desktops, less than 1400px) */
-@media (max-width: 1399.98px) {
-    .contenar {
-        width: 1380px;
-        margin: 0 auto;
-    }
-
-    .col_30 {
-        width: 30%;
-        margin: 0 auto;
-    }
-
-    .row {
-        flex-wrap: wrap;
-    }
-}
